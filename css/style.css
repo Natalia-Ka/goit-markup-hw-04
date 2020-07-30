@@ -244,36 +244,30 @@ margin-left: 30px;
     line-height: 1.71;
 }
 .features-list{
-    display:flex;
+    display: flex;
 }
-.list-item::before{
+/* .list-item::before{
     display:block;
     content: "";
+    /* width: 270px;
     height: 120px;
     margin-bottom: 30px;
+    background-color: #F5F4FA; */
+} */
+
+.feature-icon{
+    padding: 25px 102px;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    border-radius: 4px;
     background-color: #F5F4FA;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.icon-antenna::before{
-    background-image: url("../images/antenna-1.svg");
-    background-size: 70px;
-}
-.icon-clock::before{
-    background-image: url("../images/clock-1.svg");
-    background-size: 70px;
-}
-.icon-diagram::before{
-    background-image: url("../images/diagram-1.svg");
-    background-size: 70px;
-}
-.icon-astronaut::before{
-    background-image: url("../images/astronaut-1.svg");
-    background-size: 70px;
 }
 
-
+.icon-antenna{
+    width: 70px;
+    height: 70px;
+}
 
 
 .features-list .item{
