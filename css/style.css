@@ -255,8 +255,10 @@ margin-left: 30px;
     background-color: #F5F4FA; */
 
 
-.feature-icon{
-    padding: 25px 102px;
+.bacground{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 270px;
     height: 120px;
     margin-bottom: 30px;
