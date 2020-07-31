@@ -18,6 +18,7 @@ html {
     --primary-white-color: #FFFFFF; 
     --bacground-color: #F5F4FA;
     --background-logo-color: #AFB1B8;
+    --background-social-media: rgba(255, 255, 255, 0.1);
 }
 
 
@@ -446,7 +447,8 @@ margin-left: 30px;
 
 
 
-/* фон подвал */
+/* подвал */
+
 .footer{
     display: flex;
     align-items: baseline;
@@ -465,7 +467,7 @@ margin-left: 30px;
 
     margin-bottom: 20px;
 }
-/* адрес подвал */
+/* адрес - подвал */
 
 .footer-address-contacts{
     display: block;
@@ -485,7 +487,6 @@ margin-left: 30px;
 }
 
 .footer-address{
-    /* margin-right:69px; */
     line-height: 1.71;
     color: var(--primary-white-color); 
     font-style: normal; 
@@ -493,7 +494,8 @@ margin-left: 30px;
 
 
 
-/* призыв к действию - подвал  */
+/* social media - подвал  */
+
 .footer-c2a{
     display: block;
     font-weight: 700;
@@ -511,66 +513,26 @@ margin-left: 30px;
 
 .footer-social{
     display: flex;
-    height: 44px;
 }
 
-.footer-social .item{
-    width: 44px;
-}
-
-.instagram{
-    display: inline-block;
-    content:"";
+.icon{
+    display: flex;
     width: 44px;
     height: 44px;
-    background-image: url("../images/instagram-footer.svg");
-    background-repeat: no-repeat;
-    background-size: 20px;
-    background-color:rgba(255, 255, 255, 0.1);
-    background-position: center;
     border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    --color4: var(--background-social-media);
+    --color5: var(--primary-white-color);
 }
 
-.twitter{
-    display: inline-block;
-    content:"";
-    width: 44px;
-    height: 44px;
-    background-image: url("../images/twitter-footer.svg");
-    background-repeat: no-repeat;
-    background-size: 20px;
-    background-color:#2196F3;
-    background-position: center;
-    border-radius: 50%;
+.icon:hover{
+    --color4: var(--accent-color);
+    --color5: var(--primary-white-color);
 }
 
-.facebook{
-    display: inline-block;
-    content:"";
-    width: 44px;
-    height: 44px;
-    background-image: url("../images/facebook-footer.svg");
-    background-repeat: no-repeat;
-    background-size: 20px;
-    background-color:rgba(255, 255, 255, 0.1);
-    background-position: center;
-    border-radius: 50%;
-}
 
-.linkedin{
-    display: inline-block;
-    content:"";
-    width: 44px;
-    height: 44px;
-    background-image: url("../images/linkedin-footer.svg");
-    background-repeat: no-repeat;
-    background-size: 20px;
-    background-color:rgba(255, 255, 255, 0.1);
-    background-position: center;
-    border-radius: 50%;
-}
-
-.footer-social .item:not(:last-child){
+.footer-social .item-sm:not(:last-child){
     margin-right: 10px;
 }
 
