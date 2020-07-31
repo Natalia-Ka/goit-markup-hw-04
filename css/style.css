@@ -17,6 +17,7 @@ html {
     --primary-white-color: #FFFFFF; 
     --primary-white-color: #FFFFFF; 
     --bacground-color: #F5F4FA;
+    --background-logo-color: #AFB1B8;
 }
 
 
@@ -143,6 +144,7 @@ margin-left: 30px;
 }
 
 /* меню контакты - имейл */
+
 .mail{
     display: block;
     margin-right: 2.8px;
@@ -157,6 +159,8 @@ margin-left: 30px;
 }
 
 
+/* меню контакты - телефон */
+
 .phone{
     display: block;
     margin-right: 9.83px;
@@ -168,19 +172,6 @@ margin-left: 30px;
 
 .icon-smartfon:hover{
     fill: var(--accent-color);
-}
-
-/* меню контакты - телефон */
-.phone::before{
-    display: inline-block;
-    content:"";
-    width: 10px;
-    height: 14.94px;
-    margin-right: 9.83px;
-    background-size: 10px;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-image: url("../images/smartphone.svg");
 }
 
 
@@ -440,14 +431,9 @@ margin-left: 30px;
 
 /* постоянные клиенты */
 
-
 .client-list{
     display:flex;
     justify-content: space-between;
-}
-
-.client-list .item{
-    width: 170px;
 }
 
 .client-list .item:not(:last-child){
@@ -455,13 +441,65 @@ margin-left: 30px;
 }
 
 .clients-border{
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 170px;
     height: 90px;
     border-color:rgba(255, 255, 255, 0.1); 
     border: 1px solid #AFB1B8;  
     border-radius: 4px;
 }
+
+.icon-logo-one{
+    fill: var(--background-logo-color);
+}
+
+.icon-logo-one:hover{
+    fill: var(--accent-color);
+}
+
+.icon-logo-two{
+    fill: var(--background-logo-color);
+}
+
+.icon-logo-two:hover{
+    fill: var(--accent-color);
+}
+
+.icon-logo-three{
+    fill: var(--background-logo-color);
+}
+
+.icon-logo-three:hover{
+    fill: var(--accent-color);
+}
+
+.icon-logo-four{
+    fill: var(--background-logo-color);
+}
+
+.icon-logo-four:hover{
+    fill: var(--accent-color);
+}
+
+.icon-logo-five{
+    fill: var(--background-logo-color);
+}
+
+.icon-logo-five:hover{
+    fill: var(--accent-color);
+}
+
+.icon-logo-six{
+    fill: var(--background-logo-color);
+}
+
+.icon-logo-six:hover{
+    fill: var(--accent-color);
+}
+
+
 
 /* фон подвал */
 .footer{
