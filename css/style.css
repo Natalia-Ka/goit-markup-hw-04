@@ -363,13 +363,13 @@ margin-left: 30px;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
-    --color4: #FFFFFF;
-    --color5: #AFB1B8;   
+    --color4: var(--primary-white-color);
+    --color5: var(--background-logo-color);
 }
 
 .icon:hover{
-    --color4: #2196F3;
-    --color5: #FFFFFF;
+    --color4: var(--accent-color);
+    --color5: var(--primary-white-color);
 }
 
 
