@@ -299,7 +299,8 @@ margin-left: 30px;
 .work-list .item:not(:last-child){
     margin-right: 30px;
 }
-/* заголовок секции наша команда */
+/* наша команда */
+
 .about-us-subtitle{
     font-weight: 500;
     font-size: 16px;
@@ -309,7 +310,7 @@ margin-left: 30px;
 
     margin-bottom: 10px;
 }
-/*содержание секции наша команда*/
+
 .about-us{
     background-color:#F5F4FA;
 }
@@ -342,10 +343,6 @@ margin-left: 30px;
     margin-right: 30px;
 }
 
-.about-us-sm .item:not(:last-child){
-    margin-right: 10px;
-}
-
 .sm{
     text-decoration: none;
 }
@@ -355,79 +352,27 @@ margin-left: 30px;
     justify-content: center;  
 }
 
-.about-us-sm .item-sm{
-    width: 20x;
-}
-
 .about-us-sm .item-sm:not(:last-child){
     margin-right: 10px;
 }
 
-
-.about-us-instagram{
-    display: block;
-    content:"";
+.icon{
+    display: flex;
     width: 44px;
     height: 44px;
-    background-image: url("../images/instagram-2.svg");
-    background-repeat: no-repeat;
-    background-size: 20px;
-    background-color: var(--accent-color);
-    background-position: center;
     border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    --color4: #FFFFFF;
+    --color5: #AFB1B8;   
 }
 
-.about-us-instagram-b{
-    display: block;
-    content:"";
-    width: 44px;
-    height: 44px;
-    background-image: url("../images/instagram-2.svg");
-    background-repeat: no-repeat;
-    background-size: 20px;
-    background-color: #FFFFFF;
-    background-position: center;
-    border-radius: 50%;
+.icon:hover{
+    --color4: #2196F3;
+    --color5: #FFFFFF;
 }
 
-.about-us-twitter{
-    display: block;
-    content:"";
-    width: 44px;
-    height: 44px;
-    background-image: url("../images/twitter.svg");
-    background-repeat: no-repeat;
-    background-size: 20px;
-    background-color: #FFFFFF;
-    background-position: center;
-    border-radius: 50%;
-}
 
-.about-us-facebook{
-    display: block;
-    content:"";
-    width: 44px;
-    height: 44px;
-    background-image: url("../images/facebook.svg");
-    background-repeat: no-repeat;
-    background-size: 20px;
-    background-color: #FFFFFF;
-    background-position: center;
-    border-radius: 50%;
-}
-
-.about-us-linkedin{
-    display: block;
-    content:"";
-    width: 44px;
-    height: 44px;
-    background-image: url("../images/linkedin.svg");
-    background-repeat: no-repeat;
-    background-size: 20px;
-    background-color: #FFFFFF;
-    background-position: center;
-    border-radius: 50%;
-}
 
 /* постоянные клиенты */
 
@@ -723,4 +668,3 @@ margin-left: 30px;
 .portfolio-description{
     display: none;
 }
-© 2020 GitHub, Inc.
