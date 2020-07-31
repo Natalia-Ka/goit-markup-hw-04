@@ -16,6 +16,7 @@ html {
     --primary-background-color:#2196F3;
     --primary-white-color: #FFFFFF; 
     --primary-white-color: #FFFFFF; 
+    --bacground-color: #F5F4FA;
 }
 
 
@@ -246,13 +247,6 @@ margin-left: 30px;
 .features-list{
     display: flex;
 }
-/* .list-item::before{
-    display:block;
-    content: "";
-    /* width: 270px;
-    height: 120px;
-    margin-bottom: 30px;
-    background-color: #F5F4FA; */
 
 
 .bacground{
@@ -263,12 +257,7 @@ margin-left: 30px;
     height: 120px;
     margin-bottom: 30px;
     border-radius: 4px;
-    background-color: #F5F4FA;
-}
-
-.icon-antenna{
-    width: 70px;
-    height: 70px;
+    background-color: var(--bacground-color);
 }
 
 
@@ -277,20 +266,6 @@ margin-left: 30px;
 }
 
 .features-list .item:not(:last-child){
-    margin-right: 30px;
-}
-
-
-
-.client-list{
-    display:flex;
-}
-
-.client-list .item{
-    width: 170px;
-}
-
-.client-list .item:not(:last-child){
     margin-right: 30px;
 }
 
@@ -449,9 +424,19 @@ margin-left: 30px;
 }
 
 /* постоянные клиенты */
+
+
 .client-list{
     display:flex;
     justify-content: space-between;
+}
+
+.client-list .item{
+    width: 170px;
+}
+
+.client-list .item:not(:last-child){
+    margin-right: 30px;
 }
 
 .clients-border{
