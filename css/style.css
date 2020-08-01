@@ -410,8 +410,6 @@ fill: #2196f3;
     fill: var(--accent-color);
 }
 
-
-
 /* подвал */
 
 .footer{
@@ -588,11 +586,11 @@ fill: #2196f3;
     padding-bottom: 20px;
 }
 
-.border:hover{
+.portfolio-projects .item:hover{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.border:focus{
+.portfolio-projects .item:focus{
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
