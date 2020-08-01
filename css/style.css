@@ -397,24 +397,19 @@ margin-left: 30px;
     justify-content: center;
     width: 170px;
     height: 90px;
-    border-color: var(--background-social-media);
+    border-color: var(--background-logo-color);
     border: 1px solid #AFB1B8;  
     border-radius: 4px;
 }
 
 .clients-border:hover,
-.clienr-border:focus{
+.clients-border:focus{
 border-color: var(--accent-color);
 color: var(--accent-color);
 }
 
 .icon-logo{
     fill: currentColor;
-}
-
-.icon-logo:hover,
-.ikon-logo:focus{
-    fill: var(--accent-color);
 }
 
 
