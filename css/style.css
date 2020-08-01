@@ -373,11 +373,7 @@ margin-left: 30px;
     --color5: var(--background-logo-color);
 }
 
-.icon:hover{
-    --color4: var(--accent-color);
-    --color5: var(--primary-white-color);
-}
-
+.icon:hover,
 .icon:focus{
     --color4: var(--accent-color);
     --color5: var(--primary-white-color);
@@ -406,22 +402,21 @@ margin-left: 30px;
     border-radius: 4px;
 }
 
-.clients-border:hover{
+.clients-border:hover,
+.clienr-border:focus{
 border-color: var(--accent-color);
-fill: #2196f3;
+color: var(--accent-color);
 }
 
 .icon-logo{
-    fill: var(--background-logo-color);
+    fill: currentColor;
 }
 
-.icon-logo:hover{
+.icon-logo:hover,
+.ikon-logo:focus{
     fill: var(--accent-color);
 }
 
-.icon-logo:focus{
-    fill: var(--accent-color);
-}
 
 /* подвал */
 
