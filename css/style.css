@@ -402,9 +402,9 @@ border-color: var(--accent-color);
 fill: #2196f3;
 }
 
-/* .icon-logo-one{
+.icon-logo-one{
     fill: currentColor;
-} */
+}
 
 /* .icon-logo-one:hover{
     fill: var(--accent-color);
