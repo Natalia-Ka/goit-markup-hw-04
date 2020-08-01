@@ -402,51 +402,11 @@ border-color: var(--accent-color);
 fill: #2196f3;
 }
 
-.icon-logo-one{
-    fill: currentColor;
-}
-
-/* .icon-logo-one:hover{
-    fill: var(--accent-color);
-} */
-
-.icon-logo-two{
+.icon-logo{
     fill: var(--background-logo-color);
 }
 
-.icon-logo-two:hover{
-    fill: var(--accent-color);
-}
-
-.icon-logo-three{
-    fill: var(--background-logo-color);
-}
-
-.icon-logo-three:hover{
-    fill: var(--accent-color);
-}
-
-.icon-logo-four{
-    fill: var(--background-logo-color);
-}
-
-.icon-logo-four:hover{
-    fill: var(--accent-color);
-}
-
-.icon-logo-five{
-    fill: var(--background-logo-color);
-}
-
-.icon-logo-five:hover{
-    fill: var(--accent-color);
-}
-
-.icon-logo-six{
-    fill: var(--background-logo-color);
-}
-
-.icon-logo-six:hover{
+.icon-logo:hover{
     fill: var(--accent-color);
 }
 
