@@ -583,8 +583,27 @@ color: var(--accent-color);
     color: var(--primary-text-color);
 }
 
-.portfolio-link{
+.portfolio-link::before{
+    display: inline-block;
+    position: absolute;
+    content: "";
+    background-color: rgba(33, 150, 243, 0.9);
+    opacity: 0;
+    width: 370px;
+    height: 294px;
+}
+
+.portfolio-link{ 
     text-decoration: none;
+}
+
+.portfolio-link:hover::before{
+    opacity: 1;
+}
+
+
+.item{
+    position: relative;
 }
 
 .portfolio-projects{
