@@ -141,22 +141,24 @@ margin-left: 30px;
 }
 .menu-contacts:hover,
 .menu-contacts:focus{
-    color: var(--accent-color)
+    color: var(--accent-color);
 }
 
 /* меню контакты - имейл */
 
 .mail{
     display: block;
+    color: var(--primary-text-color);
+}
+
+.mail:hover,
+.mail:focus{
+    color:var(--accent-color);
 }
 
 .icon-envelope{
-    fill: var(--primary-text-color);
+    fill: currentColor;
     margin-right: 2.8px;
-}
-
-.icon-envelope:hover{
-    fill: var(--accent-color);
 }
 
 
@@ -164,16 +166,19 @@ margin-left: 30px;
 
 .phone{
     display: block;
+    color: var(--primary-text-color);
+}
+
+.phone:hover,
+.phone:focus{
+    color:var(--accent-color);
 }
 
 .icon-smartfon{
-    fill: var(--primary-text-color);
+    fill: currentColor;
     margin-right: 9.83px;
 }
 
-.icon-smartfon:hover{
-    fill: var(--accent-color);
-}
 
 
 /* заголовок шапки */
@@ -373,6 +378,10 @@ margin-left: 30px;
     --color5: var(--primary-white-color);
 }
 
+.icon:focus{
+    --color4: var(--accent-color);
+    --color5: var(--primary-white-color);
+}
 
 
 /* постоянные клиенты */
@@ -407,6 +416,10 @@ fill: #2196f3;
 }
 
 .icon-logo:hover{
+    fill: var(--accent-color);
+}
+
+.icon-logo:focus{
     fill: var(--accent-color);
 }
 
@@ -490,6 +503,11 @@ fill: #2196f3;
 }
 
 .icon-footer:hover{
+    --color4: var(--accent-color);
+    --color5: var(--primary-white-color);
+}
+
+.icon-footer:focus{
     --color4: var(--accent-color);
     --color5: var(--primary-white-color);
 }
