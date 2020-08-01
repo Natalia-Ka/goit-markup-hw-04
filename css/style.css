@@ -284,6 +284,19 @@ margin-left: 30px;
 
 /*содержание чем занимаемся*/
 .work-description{
+
+    position: absolute;
+    display: flex;
+    left: 0;
+    bottom: 0;
+    opacity: 0,5;
+
+    align-items: center;
+    justify-content: center;
+
+    height: 70px;
+    width: 370px;
+
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -299,6 +312,9 @@ margin-left: 30px;
 }
 
 .work-list .item{
+
+    position: relative;
+
     width:370px;
 }
 
