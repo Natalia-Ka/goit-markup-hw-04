@@ -591,7 +591,18 @@ color: var(--accent-color);
     opacity: 0;
     width: 370px;
     height: 294px;
+    z-index: 5;
 }
+
+/* .overlay{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: red;
+    z-index: 10;
+} */
+
 
 .portfolio-link{ 
     text-decoration: none;
@@ -604,6 +615,7 @@ color: var(--accent-color);
 
 .item{
     position: relative;
+    z-index: 2;
 }
 
 .portfolio-projects{
