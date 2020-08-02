@@ -510,23 +510,24 @@ color: var(--accent-color);
     display: flex;
     width: 44px;
     height: 44px;
+}
+
+.sm-link:hover,
+.sm-link:focus{
+    --color4: var(--accent-color);
+    --color5: var(--primary-white-color);
+}
+
+.sm-link{
+    display: flex;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
     --color4: var(--background-social-media);
-    --color5: var(--primary-white-color);
+    --color5: var(--primary-white-color);  
 }
-
-.icon-footer:hover{
-    --color4: var(--accent-color);
-    --color5: var(--primary-white-color);
-}
-
-.icon-footer:focus{
-    --color4: var(--accent-color);
-    --color5: var(--primary-white-color);
-}
-
 
 .footer-social .item-sm:not(:last-child){
     margin-right: 10px;
