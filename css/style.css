@@ -594,15 +594,6 @@ color: var(--accent-color);
     z-index: 5;
 }
 
-/* .overlay{
-    display: inline-block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    color: red;
-    z-index: 10;
-} */
-
 
 .portfolio-link{ 
     text-decoration: none;
@@ -654,5 +645,20 @@ color: var(--accent-color);
 }
 
 .portfolio-description{
-    display: none;
+    position: absolute;
+    display: inline-block;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 63px;
+    padding-bottom: 63px;
+    color: var(--primary-white-color);
+    top: 0;
+    left: 0;
+    z-index: 10;
+
+    font-size: 18px;
+    letter-spacing: 0.03em;
+
+    /* display: none; */
 }
+
