@@ -92,10 +92,10 @@ body{
     align-items: center;
 }
 
-.main-nav{
+/* .main-nav{
     padding-top: 24px;
     padding-bottom: 25px;
-}
+} */
 
 .site-nav .item:not(:last-child){
     margin-right: 50px;
@@ -103,7 +103,7 @@ body{
 
 
 .site-nav .item{
-position: relative;
+    position: relative;
 }
 
 .contacts{
@@ -115,7 +115,7 @@ position: relative;
 }
 
 .contacts-nav .item + .item{
-margin-left: 30px;
+    margin-left: 30px;
 }
 
 .site-nav .menu-link{
